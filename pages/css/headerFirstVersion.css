@@ -1,0 +1,95 @@
+:root {
+    /* rainbow color */
+    --soft-primary: #84D187;
+    --primary: #00B207;
+    --hard-primary: #2C742F;
+    --waring: #FF8A00;
+    --danger: #EA4B48;
+    --white: #FFF;
+
+    /* grey color */
+    --grey-nine: #1A1A1A;
+    --grey-eigth: #333333;
+    --grey-seven: #4D4D4D;
+    --grey-six: #666666;
+    --grey-five: #808080;
+    --grey-four: #999999;
+    --grey-three: #B3B3B3;
+    --grey-two: #CCCCCC;
+    --grey-one: #E6E6E6;
+    --grey-zero: #F2F2F2;
+
+    /* green gray color */
+    --green-nine: #002603;
+    --green-eigth: #173B1A;
+    --green-seven: #2B572E;
+    --green-six: #406B42;
+    --green-five: #618062;
+    --green-four: #7A997C;
+    --green-three: #96B297;
+    --green-two: #B4CCB4;
+    --green-one: #DAE5DA;
+    --green-zero: #EDF2EE;
+
+    /* fonts size */
+    --display-one: 72px;
+    --heading-one: 56px;
+    --heading-two: 48px;
+    --heading-three: 40px;
+    --heading-four: 36px;
+    --heading-five: 32px;
+
+    --body-xxl: 24px;
+    --body-xl: 20px;
+    --body-large: 18px;
+    --body-medium: 16px;
+    --body-small: 14px;
+    --body-tiny: 12px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.header {
+    font-family: Poppins;
+    font-style: normal;
+    line-height: 130%; /* 15.6px */
+}
+
+.smallOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+}
+
+.addres {
+    display: flex;
+    gap: 1rem;
+}
+
+.locate {
+    color: var(--grey-six);
+    font-size: var(--body-tiny);
+    font-weight: 400;
+}
+
+.headerContainer {
+    display: flex;
+    gap: .4rem;
+}
+
+.lang {
+    color: var(--grey-six);
+    font-size: var(--body-tiny);
+    font-weight: 400;
+}
+
+.currency {
+    color: var(--grey-six);
+    font-size: var(--body-tiny);
+    font-weight: 400;
+}
