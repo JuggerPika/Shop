@@ -88,7 +88,6 @@
 }
 
 /* region */
-
 .region {
     display: flex;
     align-items: center;
@@ -183,7 +182,7 @@
 }
 
 /* Search */
-.search {
+.searchContainer {
     position: relative;
     display: flex;
     align-items: center;
@@ -199,15 +198,15 @@
 }
 
 /* input search */
-.searchClick {
+.searchInput {
     border: none;
-    width: 80%;
+    width: 70%;
 
     color: var(--grey-five);
     font-size: 15px;
 }
 
-.searchClick:focus{
+.searchInput:focus{
     outline: none;
     border-color: transparent;
 }
@@ -304,4 +303,57 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 100%; /* 14px */
+}
+
+/* NAV */
+.nav {
+    position: absolute;
+    left: 0;
+    width: 1320px;
+    height: 60px;
+    background-color: var(--grey-eigth);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navLink {
+    display: flex;
+    gap: 4px;
+}
+
+.linkName {
+    color: var(--grey-four);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    text-decoration: none;
+}
+
+.active {
+    color: var(--white);
+    filter: brightness(0) invert(1);
+}
+
+/* PHONE */
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.phoneNumber {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
 }
