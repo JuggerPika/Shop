@@ -59,16 +59,16 @@
     font-style: normal;
 }
 
-/* SMALLONE */
-.smallOne {
+/* TOPHEADER */
+.topHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 42px;
 }
 
-/* ADDRES */
-.addres {
+/* ADDRESCONTAINER */
+.addresContainer {
     display: flex;
     align-items: center;
     gap: .8rem;
@@ -142,7 +142,7 @@
 .bigLine {
     position: absolute;
     left: 0;
-    top: 36px;
+    top: 34px;
     width: 100%;
     border-top: 0px;
     border-color: var(--grey-two);
@@ -155,8 +155,8 @@
 }
 
 
-/* MIDDLE */
-.middle {
+/* MIDDLEHEADER */
+.middleHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -254,7 +254,6 @@
 }
 
 .cart {
-    
     width: 32px;
     height: 32px;
 }
@@ -343,8 +342,8 @@
     filter: brightness(0) invert(1);
 }
 
-/* PHONE */
-.phone {
+/* contact */
+.contact {
     display: flex;
     align-items: center;
     gap: 8px;
