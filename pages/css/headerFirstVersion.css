@@ -215,7 +215,7 @@
     position: absolute;
 
     border-radius: 0px 6px 6px 0px;
-    background: var(--Branding-Success, #00B207);
+    background: var(--primary, #00B207);
 
     display: flex;
     padding: 14px 24px;
